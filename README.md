@@ -1,15 +1,15 @@
-# Organizador de Pasta de Downloads 📂
+# Organizador de Pasta de Downloads 
 
 Este é um script em Python simples e eficiente para resolver a bagunça da sua pasta de `Downloads`. Ele varre a pasta, identifica os arquivos pelas suas extensões e os move automaticamente para pastas categorizadas (Imagens, Documentos, Vídeos, Músicas, etc.).
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - **Organização Automática:** Cria as pastas de categorias apenas se houver arquivos para colocar nelas.
 - **Categorização Inteligente:** Agrupa arquivos comuns (PDF, JPG, MP4, etc.).
 - **Pasta de Escape ("Outras"):** Qualquer arquivo com extensão não mapeada vai para uma pasta geral, garantindo que nada fique solto.
 - **Seguro:** Ignora pastas já existentes para não mover o que já está organizado.
 
-## 🛠️ Como Funciona
+##  Como Funciona
 
 O script mapeia as seguintes extensões por padrão:
 
@@ -21,7 +21,7 @@ O script mapeia as seguintes extensões por padrão:
 | **Música** | `.mp3`, `.wav` |
 | **Outras** | Qualquer outra extensão não listada acima |
 
-## 🚀 Como Usar
+## Modo de uso
 
 ### 1. Pré-requisitos
 Você só precisa do **Python 3.x** instalado na sua máquina. O script utiliza a biblioteca nativa `pathlib`, então não é necessário instalar nenhuma dependência externa.
